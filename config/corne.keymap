@@ -25,6 +25,7 @@
                   &kp LGUI &lt 1 TAB &kp SPACE   &kp RET &lt 2 BSPC &kp RALT
                         >;
                 };
+
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |     |  1  |  2     |  3    |  4   |  5  |     |  6  |  7  |  8  |  9  |  0  |      |
@@ -55,7 +56,7 @@
         };
 
         macros {
-                capslock {
+                capslock: capslock {
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
                         //bindings = <&kp CAPSLOCK>;
@@ -67,3 +68,5 @@
                 };
         };
 };
+
+
