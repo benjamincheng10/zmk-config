@@ -54,19 +54,4 @@
                         >;
                 };
         };
-
-        macros {
-                capslock: capslock {
-                        compatible = "zmk,behavior-macro";
-                        #binding-cells = <0>;
-                        //bindings = <&kp CAPSLOCK>;
-                        bindings
-                            = <&macro_press &lt 1 TAB &kp LSHFT>
-                            , <&macro_tap &kp CAPSLOCK>
-                            , <&macro_release &lt 1 TAB &kp LSHFT>
-                            ;
-                };
-        };
 };
-
-
