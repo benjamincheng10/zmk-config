@@ -63,7 +63,7 @@
                // action = <ZMK_MOD_LCTL ZMK_MOD_LALT ZMK_MOD_C>;
                // key-positions = <1 2>; // Q and W cuz index 0 is empty
                key-positions = <12 13>; // A and S
-               bindings = <&CAPSLOCK>;
+               bindings = <&kp CAPSLOCK>;
            };
        };
 };
