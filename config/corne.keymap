@@ -9,6 +9,18 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+        combos {
+           compatible = "zmk,combos";
+           combo_capslock {
+               timeout-ms = <50>;
+               // keys = <ZMK_KEY_LCTRL ZMK_KEY_LALT ZMK_KEY_C>;
+               // action = <ZMK_MOD_LCTL ZMK_MOD_LALT ZMK_MOD_C>;
+               // key-positions = <1 2>; // Q and W cuz index 0 is empty
+               key-positions = <2 9>; // W and O
+               bindings = <&kp CAPSLOCK>;
+           };
+        };
+
         keymap {
                 compatible = "zmk,keymap";
 
@@ -54,18 +66,6 @@
                         >;
                 };
         };
-
-       combos {
-           compatible = "zmk,combos";
-           combo_capslock {
-               timeout-ms = <50>;
-               // keys = <ZMK_KEY_LCTRL ZMK_KEY_LALT ZMK_KEY_C>;
-               // action = <ZMK_MOD_LCTL ZMK_MOD_LALT ZMK_MOD_C>;
-               // key-positions = <1 2>; // Q and W cuz index 0 is empty
-               key-positions = <12 13>; // A and S
-               bindings = <&kp CAPSLOCK>;
-           };
-       };
 };
 
 
