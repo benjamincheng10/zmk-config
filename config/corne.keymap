@@ -37,7 +37,7 @@
    &trans &kp A &kp S &kp D &kp F &kp G           &kp H &kp J  &kp K     &kp L   &kp SEMI &trans
    &trans &kp Z &kp X &kp C &kp V &kp B           &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &trans
         //&kp LGUI &lt 1 TAB &kp SPACE      &kp RET &lt 2 BSPC &kp RALT //&capslock
-      &mt LCTRL TAB &kp LGUI &lt 1 SPACE          &lt 2 RET  &mt RIGHT_SHIFT BACKSPACE  &mt LEFT_ALT ESC
+      &mt LCTRL TAB &kp LGUI &lt 1 SPACE          &lt 2 RET  &mt RSHFT BSPC  &mt LEFT_ALT ESC
                         >;
                 };
 
