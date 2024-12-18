@@ -25,3 +25,6 @@ The name is inspired by Taylor Swift's 10th album *Midnights* and my sleepless n
 
 > [!IMPORTANT]  
 > The symbols \` and ~ on a Mac US keyboard yield § and ±, respectively. To correctly generate ` on raise layer, British English must be activated. However, ~ still does not produce ~ and instead generates ¬.
+
+## Combos
+![Combos](images/combos.png)

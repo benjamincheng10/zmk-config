@@ -22,14 +22,9 @@
 
            config_layer_combo {
                timeout-ms = <50>;
-               key-positions = <14 19>; // S and J
+               key-positions = <36 37 38>; // S and J
                bindings = <&mo 3>; // layer "id"
            };
-
-           system_layer_combo {
-            bindings = <&mo 3>;
-            key-positions = <36 37 38>;
-        };
         };
 
         keymap {
@@ -69,14 +64,14 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |     |     |     |     |     |     |        |     |     |     |  -  |  =  |      |
+// |     |     |     |     |     |     |        |     |     |     |  -_ |  =+ |      |
 // |     |  `  |     |     |     |     |        |     |     |  [  |  ]  |  \  |      |
 // |     |  ~  |     |     |     |     |        |  _  |  +  |  {  |  }  | "|" |      |
 //       | LCTRL/TAB | GUI | LWR/SPC |          | RSE/ENT | RSHFT/BSPC | RALT/ESC |
 //                  (command)                                            (option)
                         bindings = <
    //&trans &kp EXCL   &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &trans
-   &trans &trans     &trans &trans   &trans   &trans      &trans    &trans    &trans    &kp MINUS &kp EQUAL &trans // -_  =+
+   &trans &trans     &trans &trans   &trans   &trans      &trans    &trans    &trans    &kp MINUS &kp EQUAL &trans
    &trans &kp GRAVE  &trans &trans   &trans   &trans      &trans    &trans    &kp LBKT  &kp RBKT &kp BSLH   &trans
    &trans &kp TILDE  &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE   &trans
                     &mt LCTRL TAB &kp LGUI    &trans      &trans   &mt RSHFT BSPC  &mt RALT ESC
@@ -84,6 +79,11 @@
                 };
 
                 config_layer {
+// -------------------------------------------------------------------------------------------------------------------------
+// |     |          |          |          |          |          |                  |     |     |     |     |     |      |
+// |     | BT_SEL 0 | BT_SEL 1 | BT_SEL 2 | BT_SEL 3 | BT_SEL 4 |                  |     |     |     |     |     |      |
+// |     |  BT_CLR  |          |          |          |          |                  |     |     |     |     |     |      |
+//                             |          |          |          |                  |     |     |     |
                         bindings = <
    &trans &trans       &trans       &trans       &trans       &trans                &trans &trans &trans &trans &trans &trans
    &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4          &trans &trans &trans &trans &trans &trans
