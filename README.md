@@ -25,6 +25,8 @@ If you'd like to use this layout, go to Actions > Find the last one with name pa
 
 ![Raise layer](images/raise_layer.png)
 
+![Config layer](images/config_layer.png)
+
 > [!IMPORTANT]  
 > The symbols \` and ~ on a Mac US keyboard yield § and ±, respectively. To correctly generate ` on raise layer, British English must be activated. However, ~ still does not produce ~ and instead generates ¬.
 
