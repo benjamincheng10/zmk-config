@@ -23,7 +23,8 @@
            config_layer_combo {
                timeout-ms = <50>;
                key-positions = <36 37 38>; // S and J
-               bindings = <&mo 3>; // layer "id"
+               //bindings = <&mo 3>; // momentary activation of layer
+               bindings = <&tog 3>; // layer "id", permanent activation
            };
         };
 
