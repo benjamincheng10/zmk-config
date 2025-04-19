@@ -5,7 +5,7 @@ Switching from a staggered to a corne keyboard can be challenging, as it initial
 
 The name is inspired by Taylor Swift's 10th album *Midnights* and my sleepless nights spent building this layout, during which the album kept me company, with Anti-Hero playing on an endless loop.
 
-If you'd like to use this layout, go to Actions > Find the last one with name pattern "Merge pull request #N from ..." > Scroll down until you find the arctifacts and download the firmware.
+If you'd like to use this layout you just need to download the `latest` firmware version from the **Releases** section.
 
 ### Layout philosophy
 > [!NOTE]
